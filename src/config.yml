@@ -1,1 +1,59 @@
+#Note:
+#all item ids can be get from https://minecraft-ids.grahamedgecombe.com/
+#Position:Amount,ID:Short,Enchantment:Level
+#For Potions: Potion:ID,Short
+#all potion ids can be get from https://minecraftitemids.com/types/potion
+#the commands rewards are execute by the console without the "/"
 
+
+
+Config:
+  Round-Reward: "/example command %player%" 
+  Tournament-Reward: "/example command %player%" 
+  Inventory:
+    Opponent:
+      Title: "&aInventario de %player%"
+      health:
+        Material: "159:14"
+        Name: "&cVida"
+        lore:
+          - "&8Salud: %health%"
+      food:
+        Material: "363"
+        Name: "&6Comida"
+        lore:
+          - "&8Nivel: %food%"      
+
+    Armor:
+
+    kit:
+
+  spawn-Location:
+    world:
+    x:
+    y:
+    z:
+    pitch:
+    yaw:
+  leave-Location:
+    world:
+    x:
+    y:
+    z:
+    pitch:
+    yaw:
+  match-Location:
+    pos1:
+      world:
+      x:
+      y:
+      z:
+      pitch:
+      yaw:
+    pos2:
+      world:
+      x:
+      y:
+      z:
+      pitch:
+      yaw:

@@ -1,0 +1,7 @@
+name: Tournament
+main: Tournament.Main.Main
+version: 1.0
+commands:
+  Tournament:
+      description: Tournament command.
+      aliases: [tournament]
